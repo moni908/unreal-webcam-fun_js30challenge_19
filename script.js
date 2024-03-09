@@ -16,7 +16,7 @@ function getVideo() {
   //       Deprecated  - https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL
   //       Newer Syntax - https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/srcObject
 
-            video.srcOject = (localMediaStream);
+            video.srcObject = (localMediaStream); //srcObject spelt srcOject
             video.play();
         })
         .catch(err => {
