@@ -14,7 +14,7 @@ html {
 .photobooth {
   background: white;
   max-width: 150rem;
-  margin: 2rem;
+  margin: 2rem auto;
   border-radius: 2px;
 }
 
@@ -39,7 +39,7 @@ html {
 
 /*strip!*/  
 .strip {
- padding: 2rem; 
+  padding: 2rem; 
 }
 
 .strip img {
